@@ -1,0 +1,206 @@
+/*--- reset ---*/
+nav, section,article, header, footer {
+	display: block;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 1.3;
+	font-family: 'Montserrat', sans-serif;
+    min-width: 940px;
+    font-weight: 400;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #288DF0;
+    -webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    -moz-transition: color  0.2s ease-in-out, background-color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    -o-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+a:hover {
+    color: #F84174;
+}
+/*--- nav ---*/
+#nav, #footer {
+	background: url('../image/bg-nav.jpg') repeat-x top center;
+}
+#nav .inner {
+	width: 940px;
+	margin: 0 auto;
+	height: 82px;
+}
+#nav .inner a {
+	display: block;
+	position: relative;
+}
+#nav .inner a img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+#nav .inner a img.wtl {
+    -webkit-transition: opacity 0.3s linear 0.15s;
+    -moz-transition: opacity 0.3s linear 0.15s;
+    -ms-transition: opacity 0.3s linear 0.15s;
+    -o-transition: opacity 0.3s linear 0.15s;
+    transition: opacity 0.3s linear 0.15s;
+
+}
+#nav .inner a img.tp {
+	opacity: 0;
+	z-index: 2;
+	-webkit-transition: opacity 0.3s linear;
+    -moz-transition: opacity 0.3s linear;
+    -ms-transition: opacity 0.3s linear;
+    -o-transition: opacity 0.3s linear;
+    transition: opacity 0.3s linear;
+}
+#nav .inner a:hover .wtl {
+	opacity: 0;
+	-webkit-transition: opacity 0.3s linear;
+    -moz-transition: opacity 0.3s linear;
+    -ms-transition: opacity 0.3s linear;
+    -o-transition: opacity 0.3s linear;
+    transition: opacity 0.3s linear;
+}
+#nav .inner a:hover .tp {
+	opacity: 1;
+	-webkit-transition: opacity 0.3s linear 0.15s;
+    -moz-transition: opacity 0.3s linear 0.15s;
+    -ms-transition: opacity 0.3s linear 0.15s;
+    -o-transition: opacity 0.3s linear 0.15s;
+    transition: opacity 0.3s linear 0.15s;
+}
+
+/*--- top-section ---*/
+#top .top-banner {
+	background: url('../image/top-banner.png') no-repeat top center transparent;
+	background-size: cover;
+	height: 516px;
+    width: 100%;
+}
+#body {
+	width: 630px;
+	margin: -62px auto 0;	
+}
+#body .header {
+	width: 100%;
+	background-color: #F84171;
+	font-size: 30px;
+	color: #FFFFFF;
+    text-align: center;
+    line-height: 124px;
+}
+#body .contents {
+    padding: 50px 50px 35px 50px;
+    background-color: #F2F2F2;
+    color: #6F6F6F;
+}
+#body .contents p {
+    line-height: 1.5;
+}
+#body .contents .p {
+    margin-bottom: 30px; 
+}
+#body .contents .heading {
+    font-size: 24px;
+    margin-bottom: 40px;  
+    line-height: 1.1;
+}
+#body .contents p strong{
+    font-weight: bold; 
+}
+#body .contents .thanks {
+    margin-top: 60px;
+}
+#body .contents .press-release {
+    font-size: 12px;
+    text-align: center;
+}
+#body .contents .come-check-out {
+    font-size: 30px;
+    color: #F84174;
+    text-align: center;
+    line-height: 1.1;
+}
+#body .contents .hr {
+    height:0;
+    border: 2px solid #8F8F8F;
+    margin: 50px 0;
+}
+#body .contents ul {
+    font-size: 0;
+    padding: 0;
+    margin: 50px 0 35px;
+}
+#body .contents ul li {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    display: inline-block;
+}
+#body .contents ul li a {
+    color: #FFFFFF;
+    display: block;
+    background-color: #288DF0;
+    font-size: 24px;
+    padding: 20px 0 25px;
+    text-align: center;
+    width: 255px;
+}
+#body .contents ul li a:hover {
+    background-color: #F84174;
+}
+#body .contents ul li small {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+#body .contents ul li:first-child {
+    margin-right: 20px;
+}
+/*--- footer ---*/
+#footer {
+    margin-top: 191px;
+    height: 82px;        
+	position: relative;
+}
+#footer .images {
+    position: absolute;
+    bottom: 82px;
+    line-height: 0;
+    width: 100%;
+    height: 161px;
+}
+#footer .images img {
+    position: absolute;
+    bottom: 0;
+}
+#footer .images img.hat {
+    left: 60%;
+}
+#footer .images img.sausage {
+    right: 0;
+}
+#footer .copylight {
+    width: 940px;
+    margin: 0 auto;
+    color: #808285;
+    line-height: 26px;
+    font-size: 11px;
+    padding-top: 26px;
+}
+#footer .copylight a {
+    color: #FFFFFF;
+}
+#footer .copylight a:hover {
+    color: #F84174;
+}
