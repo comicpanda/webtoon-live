@@ -18,11 +18,11 @@ p {
 a {
     text-decoration: none;
     color: #288DF0;
-    -webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-    -moz-transition: color  0.2s ease-in-out, background-color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-    -o-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    -webkit-transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
+    -moz-transition: color  0.1s ease-in-out, background-color 0.1s ease-in-out;
+    -ms-transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
+    -o-transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
+    transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
 }
 a:hover {
     color: #F84174;
@@ -133,7 +133,7 @@ a:hover {
 }
 #body .contents .hr {
     height:0;
-    border: 2px solid #8F8F8F;
+    border: 1px solid #8F8F8F;
     margin: 50px 0;
 }
 #body .contents ul {
@@ -190,7 +190,7 @@ a:hover {
 #footer .images img.sausage {
     right: 0;
 }
-#footer .copylight {
+#footer .copyright {
     width: 940px;
     margin: 0 auto;
     color: #808285;
@@ -198,9 +198,9 @@ a:hover {
     font-size: 11px;
     padding-top: 26px;
 }
-#footer .copylight a {
+#footer .copyright a {
     color: #FFFFFF;
 }
-#footer .copylight a:hover {
+#footer .copyright a:hover {
     color: #F84174;
 }
